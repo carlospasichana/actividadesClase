@@ -1,0 +1,151 @@
+
+*{
+    /* margin ->margen externo */
+    margin:0;
+    /* padding -> margen interno */
+    padding: 0;
+}
+
+
+/* CONTROL DE TODA MI PAGINA */
+body{
+    background-image: url(/assets/imagenes/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    box-sizing: border-box;
+   
+}
+
+/* CONTROL ENCABEZADO DE MI PAGINA*/
+header{
+    width: 100%;
+    height: 100px;
+   
+
+}
+ 
+/* CONTENEDOR PADRE MENU DE NAVEGACION */
+.menuNav{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* HIJO 1 MENU DE MAVEGHACION */
+.listaMenu{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    color: white;
+    padding-right: 50px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+/* HIJO DOS MENU DE NAVEGACION */
+.logo{
+    width: 169px;
+    height: 54px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
+}
+
+
+
+/* CONTROL CUERPO DE MI PAGINA */
+main{
+     
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    margin-top: 100px
+
+
+}
+
+.mainGrid{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    object-fit: fill;
+    width: 50%;
+    
+    
+}
+
+
+.mainGrid img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.mainTexto{
+    font-family:'Arial Narrow', Arial, sans-serif;
+   margin-left: 50px;
+   font-size: 40px;
+   color: white;
+
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: grey;
+
+}
+
+.parrafo{
+    color: black;
+}
+
+
+
+/* CONTROL PIE DE PAGINA */
+footer{
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+.menuNav2{
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+
+.listaMenu2{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.copy{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+    
+
+}
